@@ -114,3 +114,8 @@
 
 # This project is shared for educational and development purposes.
 
+## Project Photos
+
+![Digital Ruler Photo 1](images/photo1.jpg)
+
+![Digital Ruler Photo 2](images/photo2.jpg)
