@@ -119,3 +119,38 @@
 ![Digital Ruler Photo 1](images/photo1.jpg)
 
 ![Digital Ruler Photo 2](images/photo2.jpg)
+
+## Circuit Connections
+
+### Arduino UNO + HC-SR04 Ultrasonic Sensor
+
+| HC-SR04 Pin | Arduino UNO |
+|---|---|
+| VCC | 5V |
+| GND | GND |
+| TRIG | D13 |
+| ECHO | D12 |
+
+### Arduino UNO + Single Digit 7-Segment Display (D56611)
+
+| Segment | Arduino UNO Pin | Resistor |
+|---|---|---|
+| a | D7 | 220Ω |
+| b | D6 | 220Ω |
+| c | D5 | 220Ω |
+| d | D3 | 220Ω |
+| e | D8 | 220Ω |
+| f | D10 | 220Ω |
+| g | D11 | 220Ω |
+
+### Display Common Pin
+
+| Display Pin | Connection |
+|---|---|
+| Common Anode | 5V |
+
+### Notes
+
+- Each segment uses a 220Ω current limiting resistor.
+- HC-SR04 measures the distance and Arduino processes the data.
+- The measured value is displayed on the 7-segment display.
